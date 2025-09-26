@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background: #000;
+}
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color:gold;
+}
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
+#box3{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet
+}
+#box4{
+    height: 300px;
+    width: 300px;
+    background-color: bisque
+}
+#box5{
+    height: 300px;
+    width: 300px;
+    background-color: palevioletred
+}
+#nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+#part2{
+    display: flex;
+    gap: 50px;
+}

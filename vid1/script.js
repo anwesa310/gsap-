@@ -1,0 +1,54 @@
+gsap.to("#box1",{
+   x:1200,
+   duration:2,
+   delay:1,
+   rotate:360,
+   backgroundColor:"blue",
+   borderRadius:"50%",
+   scale:0.5
+})
+gsap.from("#box2",{
+   x:1000,
+   duration:2,
+   delay:1,
+   repeat:-1,
+   yoyo:true
+})
+gsap.from("h1",{
+   opacity:0,
+   duration:2,
+   y:30,
+   delay:1,
+   stagger:0.3
+})
+var tl=gsap.timeline()
+   tl.to("#box3",{
+   x:1500,
+   duration:1.5,
+   delay:1,
+   rotate:360,
+})
+   tl.to("#box4",{
+    x:1500,
+   duration:1.5,
+   backgroundColor:"yellow"
+})
+   tl.to("#box5",{
+   x:1500,
+   scale:0.5,
+   borderRadiues:"50%",
+   duration:1.5,
+   backgroundColor:"yellow"
+})
+var a=gsap.timeline()
+a.from("h2",{
+   y:-20,
+   opacity:0,
+   duration:1,
+})
+a.from("h4",{
+   y:-20,
+   opacity:0,
+   duration:1,
+   stagger:0.3
+})
